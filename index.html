@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/1b2346db77.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="calculator">
+      <h3 class="calculator__headline">Calculator</h3>
+      <div class="calculator__operations">
+        <div class="calculator__operations--previous"></div>
+        <div class="calculator__operations--current"></div>
+      </div>
+      <div class="calculator__buttons">
+        <button>ce</button> <!-- Remove the current operation -->
+        <button>c</button> <!-- Remove both previous and current operation -->
+        <button class="button__operators">del</button> <!-- Remove all the data -->
+        <button class="button__operators">/</button> 
+        <button class="button__numbers">7</button>  
+        <button class="button__numbers">8</button>
+        <button class="button__numbers">9</button>
+        <button class="button__operators">*</button>
+        <button class="button__numbers">4</button>
+        <button class="button__numbers">5</button>
+        <button class="button__numbers">6</button>
+        <button class="button__operators">-</button>
+        <button class="button__numbers">1</button>
+        <button class="button__numbers">2</button>
+        <button class="button__numbers">3</button>
+        <button class="button__operators">+</button>
+        <button class="button__operators">.</button> <!-- The color of the botton will be red -->
+        <button class="button__numbers">0</button>
+        <button id="button__equal" class="button__operators">=</button> <!-- The color of the botton will be blue -->
+      </div>
+    </div>
+    <footer>
+        <a href="https://github.com/anacatarinafg" target="_blank" class="footer__link"><i class="footer__icon fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ana-catarina-b87b75236/" target="_blank" class="footer__link"><i class="footer__icon fa-brands fa-linkedin"></i></a>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
